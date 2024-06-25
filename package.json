@@ -1,0 +1,28 @@
+{
+  "name": "geez-numerals-converter",
+  "version": "1.0.0",
+  "description": "A JavaScript library for converting numbers between English/Arabic numerals and Ge'ez numerals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrishwo/geez-numerals-converter.git"
+  },
+  "keywords": [
+    "geez",
+    "ethiopian",
+    "numerals",
+    "conversion",
+    "numbers",
+    "arabic",
+    "english"
+  ],
+  "author": "Enat Soft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrishwo/geez-numerals-converter/issues"
+  },
+  "homepage": "https://github.com/abrishwo/geez-numerals-converter#readme"
+}

@@ -1,11 +1,12 @@
-```markdown
+---
+
 # Geez Numerals Converter
 
 ![npm](https://img.shields.io/npm/v/geez-numerals-converter)
 ![license](https://img.shields.io/npm/l/geez-numerals-converter)
 ![issues](https://img.shields.io/github/issues/yourusername/geez-numerals-converter)
 
-Geez Numerals Converter is a JavaScript library designed for seamless conversion between English/Arabic numerals and Ge'ez numerals. Ideal for developers working on projects involving Ethiopian scripts, historical numerical systems, or multilingual support, this package ensures accurate and efficient conversions.
+Geez Numerals Converter is a powerful JavaScript library designed to seamlessly convert numbers between English/Arabic numerals and Ge'ez numerals. Perfect for developers working on projects involving Ethiopian scripts, historical numerical systems, or multilingual support, this package ensures accurate and efficient conversions.
 
 ## Features
 
@@ -84,4 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 Special thanks to all contributors and the open-source community for their invaluable support and contributions.
-```
+
+---

@@ -1,4 +1,4 @@
-```markdown
+
 # Geez Numerals Converter
 
 [![npm](https://img.shields.io/npm/v/geez-numerals-converter)](https://www.npmjs.com/package/geez-numerals-converter)
@@ -40,15 +40,15 @@ const geezConverter = require('geez-numerals-converter');
 ### Convert Integer to Ge'ez Numerals
 
 ```javascript
-const geezNumber = geezConverter.intToGeez(4321);
-console.log(geezNumber); // Output: ፬፼፫፻፲፩
+const geezNumber = geezConverter.intToGeez(311);
+console.log(geezNumber); // Output: ፫፻፲፩
 ```
 
 ### Convert Ge'ez Numerals to Integer
 
 ```javascript
-const integer = geezConverter.geezToInt('፬፼፫፻፲፩');
-console.log(integer); // Output: 4321
+const integer = geezConverter.geezToInt('፫፻፲፩');
+console.log(integer); // Output: 321
 ```
 
 ## API

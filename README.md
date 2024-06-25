@@ -2,7 +2,7 @@
 
 # Geez Numerals Converter
 
-[![npm](https://img.shields.io/npm/v/geez-numerals-converter)](https://www.npmjs.com/package/geez-numerals-converter)
+![![npm](https://img.shields.io/npm/v/geez-numerals-converter)](https://www.npmjs.com/package/geez-numerals-converter)
 ![![license](https://img.shields.io/npm/l/geez-numerals-converter)](https://github.com/yourusername/geez-numerals-converter/blob/main/LICENSE)
 ![![issues](https://img.shields.io/github/issues/yourusername/geez-numerals-converter)](https://github.com/yourusername/geez-numerals-converter/issues)
 

@@ -1,11 +1,9 @@
----
-
+```markdown
 # Geez Numerals Converter
 
 [![npm](https://img.shields.io/npm/v/geez-numerals-converter)](https://www.npmjs.com/package/geez-numerals-converter)
 [![license](https://img.shields.io/npm/l/geez-numerals-converter)](https://github.com/yourusername/geez-numerals-converter/blob/main/LICENSE)
 [![issues](https://img.shields.io/github/issues/yourusername/geez-numerals-converter)](https://github.com/yourusername/geez-numerals-converter/issues)
-
 
 Geez Numerals Converter is a powerful JavaScript library designed to seamlessly convert numbers between English/Arabic numerals and Ge'ez numerals. Perfect for developers working on projects involving Ethiopian scripts, historical numerical systems, or multilingual support, this package ensures accurate and efficient conversions.
 
@@ -42,15 +40,15 @@ const geezConverter = require('geez-numerals-converter');
 ### Convert Integer to Ge'ez Numerals
 
 ```javascript
-const geezNumber = geezConverter.intToGeez(4);
-console.log(geezNumber); // Output: ፬
+const geezNumber = geezConverter.intToGeez(4321);
+console.log(geezNumber); // Output: ፬፼፫፻፲፩
 ```
 
 ### Convert Ge'ez Numerals to Integer
 
 ```javascript
-const integer = geezConverter.geezToInt('፫፻፲፬');
-console.log(integer); // Output: 314
+const integer = geezConverter.geezToInt('፬፼፫፻፲፩');
+console.log(integer); // Output: 4321
 ```
 
 ## API
@@ -81,10 +79,9 @@ We welcome contributions from the community. If you find a bug or have a feature
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/geez-numerals-converter/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 
 Special thanks to all contributors and the open-source community for their invaluable support and contributions.
-
----
+```

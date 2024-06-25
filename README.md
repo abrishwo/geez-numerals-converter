@@ -35,21 +35,21 @@ yarn add geez-numerals-converter
 ### Import the Library
 
 ```javascript
-const { intToGeez, geezToInt } = require('geez-numerals-converter');
+const geezConverter = require('geez-numerals-converter');
 ```
 
 ### Convert Integer to Ge'ez Numerals
 
 ```javascript
-const geezNumber = intToGeez(4321);
-console.log(geezNumber); // Output: ፬፼፫፻፲፩
+const geezNumber = geezConverter.intToGeez(4);
+console.log(geezNumber); // Output: ፬
 ```
 
 ### Convert Ge'ez Numerals to Integer
 
 ```javascript
-const integer = geezToInt('፬፼፫፻፲፩');
-console.log(integer); // Output: 4321
+const integer = geezConverter.geezToInt('፫፻፲፬');
+console.log(integer); // Output: 314
 ```
 
 ## API
